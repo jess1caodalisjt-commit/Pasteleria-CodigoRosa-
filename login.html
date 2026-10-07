@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="./estilos/style.css">
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><i class="fas fa-crown"></i> La <span class="logo-sub">Pastelería</span></a>
+            <a href="index.html" class="nav-link">← Volver al inicio</a>
+        </div>
+    </nav>
+
+    <main class="auth-container" style="margin-top: 80px;">
+        <form class="auth-form" action="dashboard.html">
+            <h2>Bienvenido</h2>
+            
+            <div class="campo">
+                <label for="email_login">Correo Electrónico:</label>
+                <input type="email" id="email_login" name="email" required class="form-group">
+            </div>
+            
+            <div class="campo">
+                <label for="pass_login">Contraseña:</label>
+                <input type="password" id="pass_login" name="password" required class="form-group">
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Ingresar</button>
+            <p style="text-align: center; margin-top: 1rem; font-size: 0.9rem;">
+                ¿No tienes cuenta? <a href="registro.html" style="color: var(--c-naranja);">Regístrate aquí</a>
+            </p>
+        </form>
+    </main>
+</body>
