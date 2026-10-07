@@ -1,67 +1,70 @@
-# Pasteleria el Psyduck - Prototipo Web Navegable
+# Pasteleria el Psyduck - Aplicacion Web para Pasteleria
 
-Bienvenido al repositorio oficial del proyecto Pasteleria el Psyduck. Este es un prototipo web desarrollado como parte de nuestras actividades academicas para practicar el diseno y maquetacion de paginas web responsivas.
+Bienvenido al repositorio oficial del proyecto **Aplicacion web para pasteleria**. Este es un prototipo web desarrollado como parte de las actividades academicas de la materia **Desarrollo de aplicaciones web**[cite: 10.8].
 
 ---
 
-## Equipo de Trabajo: Codigo Rosa
+## Datos Escolares y Equipo de Trabajo
 
-| Nombre Completo | Rol en el Proyecto | Tareas Realizadas |
+- **Universidad:** Universidad Tecnologica de Leon[cite: 10.8]
+- **Carrera:** Ingenieria en Tecnologias de la Informacion e Innovacion Digital[cite: 10.8]
+- **Grupo:** LDSM 404[cite: 10.8]
+- **Docente:** Maria de Jesus Sanchez Solis[cite: 10.8]
+- **Nombre del Equipo:** Codigo Rosa[cite: 10.8]
+- **Fecha:** 06-10-2026[cite: 10.8]
+
+### Integrantes y Tareas Realizadas
+
+| Integrante | Rol en el Proyecto | Tareas Realizadas |
 | :--- | :--- | :--- |
-| **Nadia Rodriguez** | Integrante / Front-End | Creacion y subida de archivos al repositorio de GitHub, maquetacion de la pagina principal y formularios de acceso (index.html, login.html, registro.html). |
-| **Naomi Garcia** | Integrante / Front-End y Estilos | Apoyo en la eleccion de colores y tipografias, creacion de la hoja de estilos general (estilos/style.css) y vista del catalogo (consulta.html). |
-| **Jessica Odalis Jimenez Tejeda** | Integrante / Front-End | Organizacion de las carpetas del proyecto, maquetacion del panel interno de cocina/pedidos (dashboard.html) y apoyo en la estructura general. |
-| **Emmanuel** | Integrante / Pruebas y Documentacion | Revision de que las paginas se vean bien en celulares y computadoras, organizacion de capturas de pantalla y redaccion del README.md. |
+| **Rodriguez Torres Nadia Guadalupe** | Integrante / Front-End | Creacion y subida de archivos al repositorio de GitHub, maquetacion de la pagina principal y formularios de acceso (index.html, login.html, registro.html)[cite: 10.8]. |
+| **Garcia Romero Naomi Yiree** | Integrante / Front-End y Estilos | Apoyo en la eleccion de colores y tipografias, creacion de la hoja de estilos general (estilos/style.css) y vista del catalogo (consulta.html)[cite: 10.8]. |
+| **Jimenez Tejeda Jessica Odalis** | Integrante / Front-End | Organizacion de las carpetas del proyecto, maquetacion del panel interno de cocina/pedidos (dashboard.html) y apoyo en la estructura general[cite: 10.8]. |
+| **Ramirez Carranco Emmanuel Alejandro** | Integrante / Pruebas y Documentacion | Revision de que las paginas se vean bien en celulares y computadoras, organizacion de capturas de pantalla y redaccion del README.md[cite: 10.8]. |
+
+---
+
+## Descripcion del Proyecto
+
+En esta plataforma los usuarios pueden navegar por todo el catalogo de productos, consultar precios al instante y revisar detalles de cada postre para elegir el tamano ideal para sus reuniones[cite: 10.8]. 
+
+El sistema permite hacer pedidos directamente desde la web y recibir la actualizacion de la entrega en tiempo real en la misma pagina[cite: 10.8]. Ademas, el menu se mantiene actualizado ya que el equipo de la pasteleria administra los productos y precios desde el panel interno[cite: 10.8].
 
 ---
 
 ## Tecnologias Utilizadas
 
 - **HTML5:** Estructura basica de las paginas utilizando etiquetas semanticas (header, nav, main, section, footer).
-- **CSS3:** Hoja de estilos compartida (estilos/style.css) para darle diseno, colores, tipos de letra y adaptar la pantalla a distintos dispositivos.
-- **Git y GitHub:** Herramientas para guardar nuestro codigo, trabajar en equipo y subir el proyecto a internet.
-- **GitHub Pages:** Plataforma para publicar el sitio web y poder navegarlo en linea.
+- **CSS3:** Hoja de estilos compartida (`estilos/style.css`) para diseno, colores, tipos de letra y adaptacion a distintos dispositivos.
+- **Git y GitHub:** Control de versiones y trabajo colaborativo para subir el proyecto a internet.
+- **GitHub Pages:** Plataforma para publicar el sitio web en linea.
 
 ---
 
 ## Enlace al Sitio en Linea
 
 Puedes ver y navegar nuestro proyecto publicado en el siguiente enlace:  
- **[Ver Proyecto en GitHub Pages](https://yireegar.github.io/pasteleria_CodigoRosa/)**
+**[Ver Proyecto en GitHub Pages](https://yireegar.github.io/Pasteleria/)**
 
 ---
 
-## Tabla de Paginas y Requerimientos
+## Tabla de Paginas del Proyecto
 
-En esta tabla mostramos las paginas que creamos y que funcion cumplen dentro del proyecto:
-
-| Pagina / Archivo HTML | Funcion Principal | Elementos Incluidos |
+| Archivo HTML | Funcion Principal | Elementos Incluidos |
 | :--- | :--- | :--- |
-| **index.html** | Pagina de inicio | Bienvenida a la pasteleria, barra de navegacion principal y presentacion de la marca. |
+| **index.html** | Pagina de inicio | Bienvenida a la pasteleria, barra de navegacion principal y presentacion de la marca[cite: 10.8]. |
 | **login.html** | Inicio de sesion | Formulario basico con campos para correo y contrasena. |
 | **registro.html** | Registro de usuario | Formulario para crear una cuenta con datos del cliente. |
-| **consulta.html** | Catalogo de productos | Lista de pasteles y postres mostrados en tarjetas con imagen y precio. |
-| **dashboard.html** | Panel de cocina | Vista sencilla para revisar los pedidos recibidos. |
+| **consulta.html** | Catalogo de productos | Consulta de catalogo, precios y detalles de cada postre[cite: 10.8]. |
+| **dashboard.html** | Panel de cocina / Pedidos | Vista interna para revisar los pedidos recibidos en tiempo real[cite: 10.8]. |
 
 ---
 
-## Datos para Pruebas
 
-Para simular la navegacion en la evaluacion se pueden usar estos datos de ejemplo:
-
-- **Modo Administrador / Cocina:**
-  - **Correo:** admin@psyduck.com
-  - **Contrasena:** Admin123*
-- **Modo Cliente:**
-  - **Correo:** cliente@gmail.com
-  - **Contrasena:** Cliente123*
-
----
-
-## Estructura de Archivos del Proyecto
+## Estructura de Archivos
 
 ```text
-pasteleria_CodigoRosa/
+Pasteleria-CodigoRosa-/
 ├── estilos/
 │   └── style.css
 ├── imagenes/
